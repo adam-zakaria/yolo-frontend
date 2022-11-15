@@ -4,3 +4,6 @@ https://www.pluralsight.com/guides/uploading-files-with-reactjs
 
 So the name can be retrieved, but the name is already displayed.
 The delete button needs to be implemented. Is that all?
+
+If this is the way to drag and drop in react from scratch it is too complex for the short term.
+https://www.smashingmagazine.com/2020/02/html-drag-drop-api-react/
