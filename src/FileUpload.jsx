@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './FileUpload.scss'
+import
 
 function FileUpload() {
 
@@ -21,23 +22,6 @@ function FileUpload() {
         <>
         <div>Current Attachments:</div>
         <div className='currentAttachments'>
-            <div className='flex-item'>
-                Products
-                <div className='filesUploaded'>
-                    {products ?
-                        <>
-                            <span>{products.name}</span>
-                            <span><a className='delete' href='/delete'>Remove</a></span>
-                        </>
-                        : null
-                    }
-                </div>
-
-                <input onClick={() => console.log('Click!')} onChange={handleProducts} type="file" name="file0" id="file0" className="inputfile" />
-
-                <label className='uploadFileBtn' htmlFor="file0">Upload a file</label>
-
-            </div>
             <div className='flex-item'>
                Approvals 
                 <div className='filesUploaded'>
