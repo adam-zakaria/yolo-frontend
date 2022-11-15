@@ -21,9 +21,20 @@ console.log(`e.target.files[0]: ${e.target.files[0].name}`);
 
     return (
 <div>
-    <div>{fileData.name}</div>
+    <div className='uploaded'>
+        { fileData ? 
+            <>
+            <span>{fileData.name}</span>
+            <span><a className='delete' href='/delete'>Remove</a></span>
+            </>
+        : null
+        }
+    </div>
+
 <input onClick={()=> console.log('Click!')} onChange={handleFileInput} type="file" name="file" id="file" className="inputfile" />
-<label htmlFor="file">Upload a file</label>
+
+<label className='uploadFileBtn' htmlFor="file">Upload a file</label>
+
 </div>
     );
 }

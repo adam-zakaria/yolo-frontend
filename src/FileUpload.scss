@@ -1,6 +1,11 @@
-.delete{
-    background-color: aquamarine;
+html, body{
+    background-color: white;
 }
+
+.delete{
+display: inline-block;
+}
+
 .inputfile {
 	width: 0.1px;
 	height: 0.1px;
@@ -8,4 +13,17 @@
 	overflow: hidden;
 	position: absolute;
 	z-index: -1;
+}
+.uploaded{
+    min-height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadFileBtn{
+    border: 1px solid black;
+    border-radius: 10px;
 }
