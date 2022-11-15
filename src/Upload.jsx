@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './Upload.scss'
 
 function Upload(props) {
-    [file, setFile] = useState({}) 
+    const [file, setFile] = useState({}) 
     let handleUpload = (e) => {
         setFile(e.target.files[0])
     }
     return (
         <>
             <div className='flex-item'>
-                props.title
+                {props.title}
                 <div className='filesUploaded'>
                     {file ?
                         <>

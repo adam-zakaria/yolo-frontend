@@ -1,0 +1,42 @@
+
+html, body{
+    background-color: white;
+}
+
+.delete{
+display: inline-block;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.filesUploaded{
+    min-height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadFileBtn{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.currentAttachments{
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.flex-item{
+    flex:1;
+}
