@@ -14,7 +14,7 @@ display: inline-block;
 	position: absolute;
 	z-index: -1;
 }
-.uploaded{
+.filesUploaded{
     min-height: 50px;
     border: 1px solid black;
     display: flex;
@@ -26,4 +26,16 @@ display: inline-block;
 .uploadFileBtn{
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.currentAttachments{
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.flex-item{
+    flex:1;
 }
