@@ -1,0 +1,6 @@
+https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications#accessing_selected_files
+
+https://www.pluralsight.com/guides/uploading-files-with-reactjs
+
+So the name can be retrieved, but the name is already displayed.
+The delete button needs to be implemented. Is that all?
