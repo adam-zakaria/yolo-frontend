@@ -7,3 +7,15 @@ The delete button needs to be implemented. Is that all?
 
 If this is the way to drag and drop in react from scratch it is too complex for the short term.
 https://www.smashingmagazine.com/2020/02/html-drag-drop-api-react/
+
+This is a pretty good option for a loading animation for YOLO:
+https://mhnpd.github.io/react-loader-spinner/docs/components/rotating-square
+Square because of bounding boxes. A custom option could be an animation (fade in / out, rotate, etc. with an image of my choice)
+
+g: on drop undefined html
+g: on drop files length 0
+ w
+not yielding good results
+
+
+I probably should just use drop zone.

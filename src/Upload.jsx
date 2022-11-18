@@ -17,7 +17,7 @@ function Upload(props) {
         e.preventDefault();
         const files = e.dataTransfer;
         console.log('files')
-        console.log(files)
+        console.log(files[0])
         //handleFiles(files);
     }
 
