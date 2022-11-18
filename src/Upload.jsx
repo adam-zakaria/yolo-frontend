@@ -3,31 +3,13 @@ import './Upload.scss'
 
 function Upload(props) {
 
-    function handleDragEnter(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    }
-
-    function handleDragOver(e) {
-        e.stopPropagation();
-        e.preventDefault();
-    }
-    function handleDrop(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        const files = e.dataTransfer;
-        console.log('files')
-        console.log(files)
-        //handleFiles(files);
-    }
-
     const [file, setFile] = useState(null) 
     let handleUpload = (e) => {
         setFile(e.target.files[0])
     }
     return (
         <>
-            <div onDrop={handleDrop} onDragEnter={handleDragEnter} onDragOver={handleDragOver} className='flex-item'>
+            <div className='flex-item'>
                 <h2>{props.title}</h2>
                 <div className='filesUploaded'>
                     {file ?
